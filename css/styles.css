@@ -1,0 +1,56 @@
+@font-face {
+    font-family: LoveIsLove;
+    src: url("../fonts/KgLoveIsLoveIsLove-4mq4.ttf");
+}
+@font-face {
+    font-family: LoveCrush;
+    src: url("../fonts/LoveCrush-ZVn8Z.ttf");
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0px;
+    text-align: center;
+    background-color: white;
+}
+header {
+    font-family: LoveCrush;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.493);
+    background-color: purple;
+    color: white;
+}
+header h3{
+    font-family: LoveIsLove;
+    font-size: x-large;
+}
+#strophe1, #strophe4 {
+    color: darkblue;
+    background-color: lightblue;
+    font-family: LoveIsLove;
+    font-size: x-large;
+    margin: 0px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.493);
+}
+#strophe2, #strophe5 {
+    background-color: rgb(244, 228, 231);
+    color: firebrick;
+    font-family: LoveIsLove;
+    font-size: x-large;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.493);
+}
+#chorus {
+    background-color: red;
+    color: white;
+    font-size: larger;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.493);
+    font-family: LoveCrush;
+}
+#strophe3{
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.493);
+    background-color: purple;
+    color: white;
+    font-family: LoveIsLove;
+    font-size: x-large;
+}
+
